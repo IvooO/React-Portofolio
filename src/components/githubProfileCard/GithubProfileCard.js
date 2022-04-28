@@ -59,4 +59,5 @@ export default function GithubProfileCard({prof}) {
       </div>
     </Fade>
   );
+  
 }
