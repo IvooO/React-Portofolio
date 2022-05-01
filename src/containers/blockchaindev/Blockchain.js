@@ -3,7 +3,7 @@ import "./Blockchain.scss";
 import BlockchainSkill from "../../components/blockchainSkills/BlockchainSkill";
 import {illustration, blockchainSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import blockchain from "../../assets/lottie/blockchain";
+import ethereum from "../../assets/lottie/ethereum";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -18,7 +18,7 @@ export default function Blockchain() {
         <Fade left duration={1000}>
           <div className="blockchain-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={blockchain} />
+              <DisplayLottie animationData={ethereum} />
             ) : (
               <img
                 alt="Man Working"
