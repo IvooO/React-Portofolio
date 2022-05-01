@@ -1,18 +1,18 @@
 import React from "react";
-import "./SoftwareSkill.scss";
-import {skillsSection} from "../../portfolio";
+import "./BlockchainSkill.scss";
+import {blockchainSection} from "../../portfolio";
 
 
-export default function SoftwareSkill() {
+export default function BlockchainSkill() {
   return (
     <div>
-      <div className="software-skills-main-div">
+      <div className="blockchain-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
+          {blockchainSection.blockchainSkills.map((skills, i) => {
             return (
               <li
                 key={i}
-                className="software-skill-inline"
+                className="blockchain-skill-inline"
                 name={skills.skillName}
               >
                 <i className={skills.fontAwesomeClassname}></i>

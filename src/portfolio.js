@@ -48,7 +48,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -115,6 +115,82 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+
+// Blockchain Section
+
+const blockchainSection = {
+  title: "",
+  subTitle: "BLOCKCHAIN DEVELOPER",
+  skills: [
+    emoji(
+      "⚡ Token Development Services"
+    ),
+    emoji("⚡ Smart Contract Development and Dapp development"),
+    emoji(
+      "⚡ Token Wallet Development"
+    )
+  ],
+
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
+
+  blockchainSkills: [
+    {
+      skillName: "Bitcoin",
+      fontAwesomeClassname: "fab fa-btc"
+    },
+    {
+      skillName: "Ethereum",
+      fontAwesomeClassname: "fab fa-ethereum"
+    }
+    // {
+    //   skillName: "Wallets",
+    //   fontAwesomeClassname: "fab fa-wallet"
+    // },
+    // {
+    //   skillName: "JavaScript",
+    //   fontAwesomeClassname: "fab fa-js"
+    // },
+    // {
+    //   skillName: "reactjs",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
+    // {
+    //   skillName: "npm",
+    //   fontAwesomeClassname: "fab fa-npm"
+    // },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -243,7 +319,7 @@ const openSource = {
 
 // Some big projects you have worked on
 
- const bigProjects = {
+  const bigProjects = {
 //   title: "Big Projects",
 //   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
 //   projects: [
@@ -272,7 +348,7 @@ const openSource = {
 //     }
 //   ],
 //   display: true // Set false to hide this section, defaults to true
- };
+  };
 
 // Achievement Section
 // Include certificates, talks etc
@@ -284,10 +360,10 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Token Development Services",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "We Create Variety Of Tokens On Any Blockchain.",
+      image: require("./assets/images/token.png"),
       footerLink: [
         {
           name: "Certification",
@@ -304,7 +380,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Smart Contract and Dapp Development",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/googleAssistantLogo.webp"),
@@ -317,7 +393,7 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "Token Wallet Development",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
@@ -410,6 +486,7 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
+  blockchainSection,
   educationInfo,
   techStack,
   workExperiences,
