@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Ivo Van Overstraeten",
-  title: "Hi all, I'm Ivo",
+  title: "Hi, I'm Ivo",
   subTitle: emoji(
-    "A web and blockchain developer 🚀 based in Brussels, Belgium. I'm building applications with JavaScript / Reactjs / Nodejs / Solidity / Infura and some other cool libraries and frameworks. Previous background in quality management within the food industry and operational management experience in a research lab. I hope one day to make a change with the skills that I have."
+    "A web and blockchain developer 🚀 based in Brussels, Belgium. I'm building applications with Reactjs, JavaScript, Nodejs, Solidity, Infura and many other libraries and frameworks. I have a previous background within the food industry and I hope one day to make a change there with the skills that I have."
     
   ),
   resumeLink:
@@ -123,15 +123,16 @@ https://fontawesome.com/icons?d=gallery */
 // Blockchain Section
 
 const blockchainSection = {
-  title: "",
-  subTitle: "BLOCKCHAIN DEVELOPER",
+  
+  subTitle: "BLOCKCHAIN DEVELOPER", 
   skills: [
     emoji(
-      "⚡ Token Development Services"
+      "⚡ Blockchain architecture with advanced concepts such as privacy, security and decentralized file management."
     ),
-    emoji("⚡ Smart Contract Development and Dapp development"),
+    emoji("⚡ Smart contract- and Dapp development. I build, compile, deploy, and test smart contracts using remix, ganache, truffle, and infura."
+    ),
     emoji(
-      "⚡ Token Wallet Development"
+      "⚡ Token- and wallet development services on various blockchain platforms."
     )
   ],
 
@@ -393,8 +394,8 @@ const achievementSection = {
     },
 
     {
-      title: "Token Wallet Development",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Blockchain Wallet Development",
+      subtitle: "A wallet lets you connect to the blockchain network and manage your funds and ID",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
         {name: "Certification", url: ""},
