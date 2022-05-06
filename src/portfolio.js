@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Ivo Van Overstraeten",
-  title: "Hi all, I'm Ivo",
+  title: "Hi, I'm Ivo",
   subTitle: emoji(
-    "A web and blockchain developer 🚀 based in Brussels, Belgium. I'm building applications with JavaScript / Reactjs / Nodejs / Solidity / Infura and some other cool libraries and frameworks. Previous background in quality management within the food industry and operational management experience in a research lab. I hope one day to make a change with the skills that I have."
+    "A web and blockchain developer 🚀 based in Brussels, Belgium. I'm building applications with Reactjs, JavaScript, Nodejs, Solidity, Infura and many other libraries and frameworks. I have a previous background within the food industry and I hope one day to make a change there with the skills that I have."
     
   ),
   resumeLink:
@@ -35,10 +35,10 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/IvooO",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/ivo-van-overstraeten-66843b35/",
   gmail: "ivovanoverstraeten@gmail.com",
   facebook: "https://www.facebook.com/ivo.vanoverstraeten",
-  medium: "https://medium.com/@saadpasta",
+  medium: "https://medium.com/@IvooO",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -123,15 +123,16 @@ https://fontawesome.com/icons?d=gallery */
 // Blockchain Section
 
 const blockchainSection = {
-  title: "",
-  subTitle: "BLOCKCHAIN DEVELOPER",
+  
+  subTitle: "BLOCKCHAIN DEVELOPER", 
   skills: [
     emoji(
-      "⚡ Token Development Services"
+      "⚡ Blockchain architecture with advanced concepts such as privacy, security and decentralized file management."
     ),
-    emoji("⚡ Smart Contract Development and Dapp development"),
+    emoji("⚡ Smart contract- and Dapp development. I build, compile, deploy, and test smart contracts using remix, ganache, truffle, and infura."
+    ),
     emoji(
-      "⚡ Token Wallet Development"
+      "⚡ Token- and wallet development services on various blockchain platforms."
     )
   ],
 
@@ -360,47 +361,47 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Token Development Services",
+      title: "Tokenization: Ethereum Token Development Services",
       subtitle:
-        "We Create Variety Of Tokens On Any Blockchain.",
+        "Tokens operate on a blockchain to facilitate transactions for developing decentralize apps and execute smart contracts. ",
       image: require("./assets/images/token.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Security Tokens",
+          url: "https://www.sofi.com/learn/content/security-tokens-cryptocurrency/"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Utility Tokens",
+          url: "https://www.sofi.com/learn/content/what-is-a-utility-token/"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Non-fungible Tokens",
+          url: "https://ethereum.org/en/nft/"
         }
       ]
     },
     {
       title: "Smart Contract and Dapp Development",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Amplify your business efficiency with automated operations driven via smart contracts written in Solidity.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Ethereum Smart Contract",
+          url: "https://ethereum.org/en/developers/docs/smart-contracts/"
         }
       ]
     },
 
     {
-      title: "Token Wallet Development",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Blockchain Wallet Development",
+      subtitle: "A wallet lets you connect to the blockchain network and manage your funds and ID",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Ethereum wallet", url: "https://ethereum.org/en/wallets/"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Bitcoin wallet",
+          url: "https://bitcoin.org/en/download"
         }
       ]
     }
